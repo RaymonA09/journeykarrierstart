@@ -53,7 +53,7 @@ import Jobs from './pages/Jobs';
 import News from './pages/News';
 import Pricing from './pages/Pricing';
 import Services from './pages/Services';
-import __Layout from './Layout.jsx';
+import __Layout from './layout.jsx';
 
 
 export const PAGES = {
