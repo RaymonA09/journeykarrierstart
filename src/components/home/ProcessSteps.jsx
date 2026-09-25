@@ -31,7 +31,7 @@ const steps = [
   },
   {
     id: 6,
-    title: "Arrival & Settling In",
+    title: "Arrival & Intigration Support",
     description: "From airport pickup logistics to accommodation guidance, we ensure a smooth transition into German life.",
     image: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=500&h=300&fit=crop&crop=center"
   }

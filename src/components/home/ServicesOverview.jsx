@@ -45,7 +45,7 @@ const services = [
   },
   {
     id: "ausbildung",
-    title: "Ausbildung Consulting",
+    title: "Ausbildung Placement",
     description: "Vocational training placement. Dual education system with theoretical and practical components.",
     icon: GraduationCap,
     color: "bg-[#1C3E1F]",
@@ -56,8 +56,8 @@ const services = [
   },
   {
     id: "jobseeker",
-    title: "Professional Placement",
-    description: "Executive job placement services for qualified professionals seeking German employment.",
+    title: "Job Placement",
+    description: "Job placement services for qualified professionals seeking German employment.",
     icon: Briefcase,
     color: "bg-[#556B2F]",
     duration: "2-6 months",
@@ -101,7 +101,7 @@ export default function ServicesOverview() {
             Professional Services
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Comprehensive immigration and career placement solutions for Germany. Expert guidance from initial consultation through successful placement.
+            Comprehensive Immigration and Expert Guidance all throughout Successful Career Placement.
           </p>
         </motion.div>
 
@@ -138,10 +138,10 @@ export default function ServicesOverview() {
                   <CardTitle className="text-lg font-semibold text-gray-900 mb-2">
                     {service.title}
                   </CardTitle>
-                  <div className="flex items-center gap-2">
+                  {/* <div className="flex items-center gap-2">
                     <Clock className="w-4 h-4 text-gray-400" />
                     <span className="text-sm text-gray-500">Processing: {service.duration}</span>
-                  </div>
+                  </div> */}
                 </CardHeader>
               
                 <CardContent>

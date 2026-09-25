@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { MapPin, Phone, Mail, FileText, Users, Briefcase, Newspaper, Building, Menu, X } from "lucide-react";
-import JKSLogo from "./assets/JKS_LOGO.png";
+import JKSLogo from "./assets/JKS-LOGO.jpg";
 
 export default function Layout({ children, currentPageName }) {
   const location = useLocation();
@@ -21,12 +21,12 @@ export default function Layout({ children, currentPageName }) {
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
+          <div className="flex justify-between items-center h-32">
             <Link to={createPageUrl("Home")} className="flex items-center space-x-3">
               <img 
                 src={JKSLogo} 
                 alt="JKS_Logo" 
-                className="h-12 w-auto object-contain"
+                className="h-24 w-auto object-contain"
               />
             </Link>
 

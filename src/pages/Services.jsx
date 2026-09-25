@@ -481,7 +481,7 @@ export default function Services() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.5 }}
           >
-            Comprehensive services to support your German journey. From visa applications to language learning and professional development.
+            Comprehensive services to support your German journey.
           </motion.p>
           <motion.div 
             className="flex flex-wrap justify-center gap-4"
